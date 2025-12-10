@@ -1,5 +1,5 @@
 name: First workflow
-on: workflow_dispatch
+on: [push]
 jobs:
   first_job:
     runs_on: self-hosted
