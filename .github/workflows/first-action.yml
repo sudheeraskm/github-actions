@@ -2,7 +2,7 @@ name: First workflow
 on: workflow_dispatch
 jobs:
   first_job:
-    runs_on: ubuntu_latest
+    runs_on: self-hosted
     steps:
       - name: print greeting
         run: echo "Hello world"
