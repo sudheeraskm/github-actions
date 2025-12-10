@@ -2,7 +2,7 @@ name: First workflow
 on: [push]
 jobs:
   first_job:
-    runs-on: self-hosted
+    runs-on: dev
     steps:
       - name: print greeting
         run: echo "Hello world"
